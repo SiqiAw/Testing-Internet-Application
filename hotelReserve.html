@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Legoland</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="legoland.css">
+</head>
+<body>
+	<div id="wrapped">
+		<header>
+			<h1>Legoland Malaysia Resort</h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<li>
+					<a href="legolandHome.html">Homepage</a>
+				</li>
+
+				<li>
+					<a href="legolandPark.html">Legoland Park</a>
+				</li>
+
+				<li>
+					<a href="legolandActivity.html">Activities</a>
+				</li>
+
+				<li>
+					<a href="hotelReserve.html">Reservations</a>
+				</li>
+			</ul>
+		</nav>
+
+		<main>
+			<h2>Reservations at Legoland Malaysia Resorts</h2>
+			<p class="contact">Contact Us</p>
+			<p>Required information is marked with an asterisk(*)</p>
+				<form>
+					<label for="fname">First Name*:</label>
+					<input type="text" name="firstName" id="fname" required>
+
+					<label for="lname">Last Name*:</label>
+					<input type="text" name="lastName" id="lname" required>
+
+					<label for="mail">Email*:</label>
+					<input type="email" name="email" id="mail" required>
+
+					<label for="phone">Phone*:</label>
+					<input type="tel" name="phoneNum" id="phone">
+
+					<label for="date">Arrival Date*:</label>
+					<input type="date" name="arrivalDate" id="date">
+
+					<label for="day">Nights*:</label>
+					<input type="number" name="night" id="day">
+
+					<label for="comment">Comments:</label>
+					<textarea id="comment" required></textarea>
+
+					<button type="submit" onclick="submitAll()" id="submit">Submit</button>
+				</form>
+		</main>
+
+		<footer>Copyright &copy 2020 Legoland Malaysia Resort<br>
+		<a href="#">siqi0314@gmail.com</a>
+		</footer>
+	</div>
+</body>
+</html>
