@@ -1,0 +1,60 @@
+#wrapper {
+	border: 10px solid red;
+	background-color: #4B0082;
+	color: white;
+	width: 30%;
+	height: 50%;
+	font-family: serif;
+}
+
+.detail {
+	display: flex;
+}
+
+.name {
+	border-bottom: 1px solid red;
+	padding: 5px;
+	text-align: center;
+}
+
+.player {
+	border-right: 1px solid red;
+}
+
+.difficult, .group {
+	margin: 20px 5px;
+}
+
+.pic, .player-name {
+	border-bottom: 1px solid red;
+	text-align: center;
+}
+
+img {
+	width: 80%;
+}
+
+table {
+	width: 100%;
+	height: 45%;
+}
+
+table,tr,td {
+	border: 1px solid white;
+}
+
+table td input {
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	#wrapper {
+		width: 100%;
+		height: 100%;
+	}
+
+	table {
+		width: 100%;
+		height: 20%;
+	}
+}
